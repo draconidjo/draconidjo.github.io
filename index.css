@@ -25,7 +25,7 @@
 
 body::before
 {
-  content: url("http://3dspaint.com/images/upload_gallery/6cdb939e-41ce-41da-94a5-f4c004cb2ac2.jpg");
+  content: url("http://3dspaint.com/images/upload_gallery/6cdb939e-41ce-41da-94a5-f4c004cb2ac2.jpg") !important;
   text-align: justify;
   display: block;
   color: #2DD080;
@@ -56,7 +56,7 @@ h1 {
 }
 
 h1::before, h1::after {
-	content: url("https://3dspaint.com/images/art_gallery/249368.png");
+	content: url("http://3dspaint.com/images/art_gallery/249368.png");
 	z-index: -1;
 	position: relative;
 }
