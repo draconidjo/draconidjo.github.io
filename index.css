@@ -25,7 +25,7 @@
 
 body::before
 {
-  content: url("http://3dspaint.com/images/upload_gallery/6cdb939e-41ce-41da-94a5-f4c004cb2ac2.jpg") !important;
+  content: url("http://3dspaint.com/images/upload_gallery/6cdb939e-41ce-41da-94a5-f4c004cb2ac2_thumb.jpg") !important;
   text-align: justify;
   display: block;
   color: #2DD080;
