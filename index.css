@@ -1,0 +1,90 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your HTML content. To learn how to do something, just try searching Google for questions like "how to change link color." */
+
+
+
+@font-face {
+	font-family: "Tribal Dragon";
+	src: url("/Tribal_Dragon.ttf");
+}
+
+@font-face {
+	font-family: "dragon language"; src: url("/dragon_language.ttf");
+}
+
+@font-face {
+	font-family: "dragon alphabet"; src: url("/dragon_alphabet.ttf");
+}
+
+@font-face {
+	font-family: "DraconicScript"; src: url("/DND5EDraconicScript.ttf");
+}
+
+@font-face {
+	font-family:"DSFont"; src:url(https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf);
+}
+
+h1 {
+	text-shadow: #00D080 1px 1px 14px, #00D080 -1px -1px 14px;
+	text-align: center;
+	font-family: "Tribal Dragon", Luminari, fantasy;
+	font-variant: small-caps;
+	font-style: normal;
+	border: hidden;
+	background-color: transparent;
+	animation-duration: 2s;
+	animation-name: Aurorus;
+	animation-iteration-count: infinite;
+	opacity: 0.7;
+}
+
+h1::before, h1::after {
+	content: url("https://3dspaint.com/images/art_gallery/249368.png");
+	z-index: -1;
+	position: relative;
+}
+
+@keyframes Aurorus {
+	0% {
+		color: #2DD080;
+	}
+
+	25% {
+		color: #7038F8;
+	}
+
+	50% {
+		color: #3448F0;
+	}
+
+	75% {
+		color: #00FFFF;
+	}
+
+	100% {
+		color: #2DD080;
+	}
+}
+
+body {
+	background-color: #000020;
+	background-image: url("https://3dspaint.com/images/upload_gallery/0dd852c8-d04c-4e62-b689-399f22c3c222.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	color: cyan;
+	font-family: "DSFont";
+}
+
+a {
+	animation-duration: 2s;
+	animation-name: Aurorus;
+	animation-iteration-count: infinite;
+}
+
+div {
+	background-color: rgba(0, 0, 32, 0.75);
+}
+
+blockquote {
+	font-family: "dragon language", "dragon alphabet", fantasy !important;
+	font-variant: small-caps;
+}
