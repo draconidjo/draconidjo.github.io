@@ -1,7 +1,5 @@
 /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your HTML content. To learn how to do something, just try searching Google for questions like "how to change link color." */
 
-
-
 @font-face {
 	font-family: "Tribal Dragon";
 	src: url("/Tribal_Dragon.ttf");
@@ -25,7 +23,7 @@
 
 body::before
 {
-  content: url("http://3dspaint.com/images/upload_gallery/6cdb939e-41ce-41da-94a5-f4c004cb2ac2_thumb.jpg") !important;
+  content: "No doubt but there is none other beeste comparable to the mightie dragon in awesome power and majestie, and few so worthie of the diligent studies of wise homs. —Gildas Magnus, Ars Draconis, 1465";
   text-align: justify;
   display: block;
   color: #2DD080;
