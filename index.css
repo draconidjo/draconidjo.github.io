@@ -25,12 +25,12 @@
 
 body::before
 {
-  content: url("3dspaint.com/images/upload_gallery/6cdb939e-41ce-41da-94a5-f4c004cb2ac2.jpg");
+  content: url("http://3dspaint.com/images/upload_gallery/6cdb939e-41ce-41da-94a5-f4c004cb2ac2.jpg");
   text-align: justify;
   display: block;
   color: #2DD080;
   background-color: rgba(0, 0, 32, 0.9);
-  background-image: url("3dspaint.com/images/upload_gallery/a9e89ea8-4c95-406e-865a-7d215f27be51.jpg");
+  background-image: url("http://3dspaint.com/images/upload_gallery/a9e89ea8-4c95-406e-865a-7d215f27be51.jpg");
   background-position: center center;
   border: 3px solid rgba(0, 0, 32, 0.9);
   font-family: "dragon language", "DraconicScript", fantasy;
@@ -85,7 +85,7 @@ h1::before, h1::after {
 
 body {
 	background-color: #000020;
-	background-image: url("https://3dspaint.com/images/upload_gallery/0dd852c8-d04c-4e62-b689-399f22c3c222.jpg");
+	background-image: url("http://3dspaint.com/images/upload_gallery/0dd852c8-d04c-4e62-b689-399f22c3c222.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	color: cyan;
