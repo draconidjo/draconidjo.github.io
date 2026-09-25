@@ -32,6 +32,12 @@
   font-family:"DSFont"; src: url("/Media/Fonts/ds-lite.ttf");
 }
 
+@font-face
+{
+  font-family: "PixelMplus";
+  src: url("/Media/Fonts/PixelMplus10-Regular.ttf");
+}
+
 h1
 {
   color: aqua;
@@ -98,7 +104,7 @@ body
   background-attachment: fixed;
   background-position: center center;
   color: #98D8D8;
-  font-family: "Queermoji";
+  font-family: Queermoji, DSFont, PixelMplus, serif;
   text-align: center;
 }
 
