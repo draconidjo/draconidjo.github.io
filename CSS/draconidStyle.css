@@ -8,6 +8,12 @@
 
 @font-face
 {
+  font-family: "Queermoji";
+  src: url("/Media/Fonts/Queermoji.ttf");
+}
+
+@font-face
+{
   font-family: "dragon language"; src: url("/Media/Fonts/dragon_language.ttf");
 }
 
@@ -92,7 +98,7 @@ body
   background-attachment: fixed;
   background-position: center center;
   color: #98D8D8;
-  font-family: "DSFont";
+  font-family: "Queermoji";
   text-align: center;
 }
 
