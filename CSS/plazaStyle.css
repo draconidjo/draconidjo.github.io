@@ -12,8 +12,9 @@
 
 body
 {
-  background-image: url(//draconidjoashu.venith.net/Media/Images/Zinnia_Rayquaza_Portrait.jpg);
-  background-size: cover;
+  background-color: #00D080 !important;
+  background-image: url(//draconidjoashu.venith.net/Media/Images/Zinnia_Rayquaza_Portrait.jpg) !important;
+  background-attachment: fixed !important;
   background-position: center center !important;
 }
 
