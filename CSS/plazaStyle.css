@@ -1,0 +1,65 @@
+@font-face
+{
+  font-family: "Tribal Dragon";
+  src: url("//draconidjoashu.venith.net/Media/Fonts/Tribal_Dragon.ttf");
+}
+
+@font-face
+{
+  font-family:"DSFont";
+    src:url(//draconidjoashu.venith.net/Media/Fonts/ds-lite.ttf);
+}
+
+body
+{
+  background-image: url(//draconidjoashu.venith.net/Media/Images/Zinnia_Rayquaza_Portrait.jpg);
+  background-size: cover;
+  background-position: center center !important;
+}
+
+.titlebox
+{
+  background-image: none !important;
+}
+
+.content
+{
+  background-color: transparent !important;
+  color: #98D8D8 !important;
+  font-family: DSFont, serif !important;
+  text-shadow: #00D080 1px 1px 7px, #7038F8 -1px -1px 7px !important;
+  text-align: center !important;
+}
+
+.titlebox, .infobox, .menu, .menu_container, input, textarea, .menu, .comments, .no_comments, .commentbox_1, .commentbox_2, .post_comment, .titlebox, .members_menu, .friends_spoiler_full, .friends_spoiler_if, .signature
+{
+  background-color: #002 !important;
+  color: #98D8D8 !important;
+  font-family: DSFont, serif !important;
+  text-shadow: #00D080 1px 1px 7px, #7038F8 -1px -1px 7px !important;
+  text-align: center !important;
+}
+
+a
+{
+  color: aqua !important;
+}
+
+h2
+{
+  color: #2DD080 !important;
+  text-shadow: #00D080 1px 1px 14px, #00D080 -1px -1px 14px !important;
+  text-align: center !important;
+  font-family: "Tribal Dragon", fantasy !important;
+  font-variant: small-caps !important;
+}
+
+h2::before, h2::after
+{
+  content: url(//draconidjoashu.venith.net/Media/Images/Rising_Badge.png);
+}
+
+IMG
+{
+  max-width: 280px !important;
+}
