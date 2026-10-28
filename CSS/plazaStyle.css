@@ -58,7 +58,6 @@ h2
   animation-duration: 2s;
   animation-name: Aurorus !important;
   animation-iteration-count: infinite !important;
-  opacity: 0.7 !important;
 }
 
 h2::before, h2::after
