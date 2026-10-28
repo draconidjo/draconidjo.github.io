@@ -48,13 +48,51 @@ a
 
 h2
 {
+  text-shadow: #00D080 1px 1px 14px, #00D080 -1px -1px 14px !important;
+  text-align: center !important;
   font-family: "Tribal Dragon", fantasy !important;
   font-variant: small-caps !important;
+  font-style: normal !important;
+  border: hidden !important;
+  background-color: transparent !important;
+  animation-duration: 2s;
+  animation-name: Aurorus !important;
+  animation-iteration-count: infinite !important;
+  opacity: 0.7 !important;
 }
 
 h2::before, h2::after
 {
-  content: url(//draconidjoashu.venith.net/Media/Images/Rising_Badge.png);
+  content: url("//draconidjoashu.venith.net/Media/Images/Rising_Badge.png");
+}
+
+@keyframes Aurorus
+{
+ 
+  0%
+  {
+    color: #2DD080;
+  }
+
+  25%
+  {
+    color: #7038F8;
+  }
+
+  50%
+  {
+    color: #3448F0;
+  }
+
+  75%
+  {
+    color: #00FFFF;
+  }
+
+  100%
+  {
+    color: #2DD080;
+  }
 }
 
 IMG
