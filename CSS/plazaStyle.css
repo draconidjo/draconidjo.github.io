@@ -98,3 +98,20 @@ IMG
 {
   max-width: 280px !important;
 }
+
+::selection
+{
+  background-color: #000020 !important;
+  color: #2DD080 !important;
+  text-shadow: #00D080 1px 1px 7px, #00D080 -1px -1px 7px !important;
+  font-family: DSFont, serif !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+}
+
+a:hover
+{
+  color: #2DD080;
+  background-color: #200040 !important;
+  font-weight: bold !important;
+}
